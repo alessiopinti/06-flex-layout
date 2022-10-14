@@ -26,3 +26,21 @@ input {
   margin-bottom: 16px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left-links li {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee9a;
+}
+
+
+
