@@ -29,12 +29,24 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  
+  padding: 5px;
 }
 
-.left-links li {
+ul {
   display: flex;
+  padding: 5px;
+  gap: 10px;
+
 }
+
+.left-links{
+  margin-top: 0px;
+}
+
+.right-links{
+  margin-top: 0px;
+}
+
 
 .footer {
   display: flex;
