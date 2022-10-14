@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  
+  
 }
 
 img {
@@ -39,11 +43,7 @@ ul {
 
 }
 
-.left-links{
-  margin-top: 0px;
-}
-
-.right-links{
+.left-links, .right-links{
   margin-top: 0px;
 }
 
@@ -52,7 +52,33 @@ ul {
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee9a;
+  margin-top: auto;
+
 }
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-top: auto;
+}
+
+
+
+
+ 
 
 
 
